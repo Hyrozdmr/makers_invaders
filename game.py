@@ -9,9 +9,9 @@ pygame.init()
 
 
 # Create screen - using standard width and height
-res = (800, 600)
-
-screen = pygame.display.set_mode(res)
+screen_witdh = 800
+screen_height = 600
+screen = pygame.display.set_mode((screen_witdh, screen_height))
 
 # caption and icon
 pygame.display.set_caption("Space Invaders Game")
