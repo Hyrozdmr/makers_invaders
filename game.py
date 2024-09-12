@@ -25,7 +25,6 @@ font = pygame.font.Font("freesansbold.ttf", 32)
 # game over
 game_over_font = pygame.font.Font("freesansbold.ttf", 64)
 
-
 def show_score(x, y):
     score = font.render("points: " + str(score_val), True, (255, 255, 255))
     screen.blit(score, (x, y))
@@ -98,7 +97,6 @@ def bullet(x, y):
     screen.blit(bulletImage, (x, y))
     bullet_state = "fire"
 
-
     
 WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
@@ -110,9 +108,10 @@ MAIN_MENU = 0
 GAMEPLAY = 1
 game_state = MAIN_MENU
 
-    
+   
 # game loop
 running = True
+
 while running:
     # Control frame rate (FPS)
     # clock.tick(60)
@@ -147,6 +146,7 @@ while running:
     
     # RGB
     screen.fill((0, 0, 0))
+    screen.blit(background, (0,0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -232,4 +232,5 @@ while running:
 
     player(player_X, player_Y)
     show_score(scoreX, scoreY)
+
     pygame.display.update()
