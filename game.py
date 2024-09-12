@@ -62,8 +62,8 @@ for num in range(no_of_invaders):
     invaderImage.append(pygame.image.load("data/enemy.png"))
     invader_X.append(random.randint(64, 737))
     invader_Y.append(random.randint(30, 180))
-    invader_Xchange.append(1.5)
-    invader_Ychange.append(60)
+    invader_Xchange.append(0.75)
+    invader_Ychange.append(40)
 
 # Bullet
 # rest - bullet is not moving
