@@ -2,11 +2,11 @@ import pygame
 import math
 import random
 from pygame import mixer
-import clock
-# import pygame from mixer
+
 
 # Initalise pygame
 pygame.init()
+
 
 # Create screen - using standard width and height
 res = (800, 600)
@@ -62,8 +62,8 @@ for num in range(no_of_invaders):
     invaderImage.append(pygame.image.load("data/enemy.png"))
     invader_X.append(random.randint(64, 737))
     invader_Y.append(random.randint(30, 180))
-    invader_Xchange.append(2)
-    invader_Ychange.append(40)
+    invader_Xchange.append(1.5)
+    invader_Ychange.append(60)
 
 # Bullet
 # rest - bullet is not moving
