@@ -14,7 +14,7 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_witdh, screen_height))
 
 # caption and icon
-pygame.display.set_caption("Space Invaders Game")
+pygame.display.set_caption("Makers Invaders Game")
 
 # score
 score_val = 0
@@ -56,9 +56,14 @@ invader_Y = []
 invader_Xchange = []
 invader_Ychange = []
 no_of_invaders = 8
+enemy = pygame.image.load("data/enemy.png")
+# enemy = pygame.image.load("data/makers_logo.png")
+# Set the size for the image
+DEFAULT_IMAGE_SIZE = (64, 64)
+enemy = pygame.transform.scale(enemy, DEFAULT_IMAGE_SIZE)
 
 for num in range(no_of_invaders):
-    invaderImage.append(pygame.image.load("data/enemy.png"))
+    invaderImage.append(enemy)
     invader_X.append(random.randint(64, 737))
     invader_Y.append(random.randint(30, 180))
     invader_Xchange.append(0.75)
@@ -185,7 +190,7 @@ while running:
             score_val += 1
             bullet_Y = 600
             bullet_state = "rest"
-            invader_X[i] = random.randint(64, 736)
+            invader_X[i] = random.randint(100, 736)
             invader_Y[i] = random.randint(30, 200)
             invader_Xchange[i] *= -1
 
