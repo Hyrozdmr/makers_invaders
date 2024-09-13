@@ -18,3 +18,10 @@ On clicking 'START' you begin the game
 
 Clicking the space bar will shoot bullets and defeat the enemies!
 <img width="809" alt="Screenshot 2024-09-13 at 16 34 46" src="https://github.com/user-attachments/assets/c37d39fa-919d-4eb1-b84d-c013fa9bab59">
+
+# Makers Twist
+
+Defeat the Makers enemy!
+![secret_enemy](https://github.com/user-attachments/assets/75296732-8397-4891-96a7-0284920d351a)
+
+<img width="912" alt="Screenshot 2024-09-13 at 17 06 15" src="https://github.com/user-attachments/assets/ff08229c-1a50-42ad-8ce4-a36fb8224ee0">
