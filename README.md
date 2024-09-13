@@ -1,6 +1,6 @@
-# makers_invaders
+# Makers Invaders
 
-This was created as part of Makers' first Game Jam! (12/08/24)
+This was created as part of Makers' first Game Jam! We all wanted to build a game with Python and achieved this using the Pygame package (12/08/24)
 
 # Game system diagram:
 <img width="1053" alt="Screenshot 2024-09-13 at 16 52 20" src="https://github.com/user-attachments/assets/8196416f-d107-40ef-bf4f-6ab675f77175">
