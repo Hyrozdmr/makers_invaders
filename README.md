@@ -17,4 +17,5 @@ On clicking 'START' you begin the game
 <img width="912" alt="Screenshot 2024-09-13 at 16 34 22" src="https://github.com/user-attachments/assets/363030a6-93d5-42f7-a6ad-d1b07d57529e">
 
 Clicking the space bar will shoot bullets!
+
 <img width="809" alt="Screenshot 2024-09-13 at 16 34 46" src="https://github.com/user-attachments/assets/c37d39fa-919d-4eb1-b84d-c013fa9bab59">
